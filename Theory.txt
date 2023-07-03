@@ -1,0 +1,26 @@
+1. What is JSX?
+JSX stands for Javascript XML. It is a syntax like HTML, which allows us to embed HTML and Javascript into one.
+It is an easier way to create React Elements.It is not pure javascript since it is not understood 
+by the browsers directly. JSX is transpiled before it reaches the JS engine
+
+2. Super Powers of JSX
+A. JSX helps u by making our code simple and elegant
+It allows React to show Error and warning messages
+It is easy to use JSX when creating React appliocations since it's syntax is very similar to HTML, however it is 
+not HTML
+It is faster than Javascript since it performs optimizations while translating to regular javascript
+
+3. Role of type attribute in script tag? What options can we use there?
+A. Module - A Module is a section of code that is added in as a whole or is designed for easy reusability
+
+Type attribute identifies the content in script tag.
+
+type ="text/javascript" - It identifies the content in script tag.
+type ="module" - It allows loading of JavaScript modules inside web pages.
+A script tag having type="module" attribute specifies that it to be considered as a Javascript module. 
+It may be importing other Javascript module(s) inside it and becomes a "top-level" module 
+for the imported modules.
+
+4. {TitleComponent} Vs {<TitleComponent />} Vs {<TitleComponent> </TitleComponent} in JSX
+A. {TitleComponent} is a React Element where as {<TitleComponent />} and  {<TitleComponent> </TitleComponent} 
+are the React Components
